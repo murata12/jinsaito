@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>佐賀情報サイト</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+</script>
+</head>
+<body>
+  <header class="header">
+    <div class="header--container">
+      <h1 class="header--tit">
+        <a href="index.html">
+          <img src="img/logo1.png" alt="佐賀情報サイト">
+        </a>
+      </h1>
+      <nav class="header--nav">
+        <ul class="header--nav--list">
+          <li class="header--nav--list--item">
+            <a href="kankou.html">観光</a>
+          </li>
+          <li class="header--nav--list--item">
+            <a href="gurume.html">グルメ</a>
+          </li>
+          <li class="header--nav--list--item">
+            <a href="event.html">イベント</a>
+          </li>
+          <li class="header--nav--list--item">
+            <a href="information.html">最新情報</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="top">
+    <div class="slider">
+      <img src="img/fv--pic1.jpg" width="400" height="750" >
+      <img src="img/rank--pic1.jpg" width="400" height="750" >
+      <img src="img/rank--pic4.jpg" width="400" height="750" >
+      <img src="img/rank--pic7.jpg" width="400" height="750" >
+      </div>
+    <section class="top--the">
+      <div class="top--the--container">
+        <div class="top--the--box">
+          <h2 class="top--the--box--tit">テーマ<span>-theme-</span></h2>
+        </div>
+        <p class="top--the--txt">佐賀県のそれぞれのテーマについてランキングにより紹介します。</p>
+        <ul class="top--the--list">
+          <li class="top--the--list--item">
+            <a href="kankou.html">
+              <h3 class="top--the--list--item--tit">観光<span>visit</span></h3>
+            </a>
+          </li>
+          <li class="top--the--list--item">
+            <a href="gurume.html">
+              <h3 class="top--the--list--item--tit">グルメ<span>food</span></h3>
+            </a>
+          </li>
+          <li class="top--the--list--item">
+            <a href="event.html">
+              <h3 class="top--the--list--item--tit">イベント<span>event</span></h3>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="top--rep">
+      <div class="top--rep--container">
+        <div class="top--rep--container--box">
+          <h2 class="top--rep--container--box--tit">最新情報<span>-information-</span></h2>
+        </div>
+        <div class="top--rep--box">
+          <p class="top--rep--box--link">
+            <a href="information.html#info--first">2023年3月25日(土)<span>第１回竹崎城址展望台公園お花見</span></a>
+          </p>
+          <p class="top--rep--box--link">
+            <a href="information.html#info--second">2023年3月25日(土)<span>特別史跡 肥前名護屋城跡本丸『薪能』</span></a>
+          </p>
+          <p class="top--rep--box--link">
+            <a href="information.html#info--third">2023年3月17日(金)<span>テーマ展「梧竹の書－本野克彦コレクション－」</span></a>
+          </p>
+        </div>
+        <p class="top--rep--btn">
+          <a href="information.html">最新情報をもっと見る⇢</a>
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+      <h2 class="footer--tit">
+        <img src="img/logo1.png" alt="がばい佐賀">
+      </h2>
+      <ul class="footer--list">
+        <li class="footer--list--item">
+          <a href="kankou.html">観光</a>
+        </li>
+        <li class="footer--list--item">
+          <a href="gurume.html">グルメ</a>
+        </li>
+        <li class="footer--list--item">
+          <a href="event.html">イベント</a>
+        </li>
+        <li class="footer--list--item">
+          <a href="information.html">最新情報</a>
+        </li>
+      </ul>
+      <p class="footer--txt"><small>copyright ©2023 mruata</small></p>
+  </footer>
+</body>
+</html>
