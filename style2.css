@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+body{
+  font-size: 16px;
+  color: #222;
+  font-family: 'Noto Serif JP', serif;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  color: inherit;
+  transition: opacity 0.5s;
+}
+
+.sp{
+  display: none;
+}
+
+a:hover{
+  opacity: 0.8;
+}
+
+/* header */
+
+.header--container{
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header--tit{
+  width: 200px;
+}
+
+.header--nav--list{
+  display: flex;
+}
+.header--nav--list--item{
+  margin-right: 50px;
+}
+.header--nav--list--item:last-of-type{
+  margin-right: 0;
+}
+
+/* fv */
+
+.top--fv{
+  text-align: center;
+  padding: 100px 0;
+  background-image: url(../img/fv--pic1.jpg);
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.top--fv::after{
+  content:"";
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  opacity: 0.5;
+}
+
+.top--fv--tit{
+  position: relative;
+  z-index: 3;
+  font-size: 50px;
+  color:#0075c1;
+}
+
+.top--fv--tit span{
+  font-size: 30px;
+  display: block;
+}
+
+/* information */
+
+.top--info--container{
+  padding-top: 50px;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.top--info--tit{
+  padding-left: 55px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.top--info--tit:before {
+  content: "";
+  background-color: #4CAF50;
+  width: 25px;
+  height: 25px;
+  left: 20px;
+  top: 5px;
+  position: absolute;
+  box-shadow: -15px -10px #FFEE58;
+}
+
+.top--info--tit:after{
+  content: "";
+  background-color: #FFB74D;
+  width: 15px;
+  height: 15px;
+  left: 10px;
+  top: 25px;
+  position: absolute;
+}
+
+table, th, td{
+  border: 2px solid #C3BEBE;
+  vertical-align: middle;
+}
+
+.top--info--table{
+  width: 1140px;
+}
+
+.top--info--table td:last-of-type{
+  padding: 5px;
+}
+
+/* footer */
+
+.footer{
+  background-color: #EEEEEE;
+  padding: 40px 0 14px;
+  margin-top: 150px;
+}
+
+.footer--tit{
+  width: 250px;
+  margin: 0 auto;
+}
+
+.footer--list{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer--list--item{
+  margin-right: 50px;
+}
+
+.footer--list--item:last-of-type{
+  margin-right: 0;
+}
+
+.footer--txt{
+  text-align: center;
+  font-size: 12px;
+  margin-top: 30px;
+}
