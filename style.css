@@ -62,7 +62,7 @@ a:hover{
 }
 
 .top--the--box{
-  background-image: url(../img/the--pic--4--1.png);
+  background-image: url(https://github.com/murata12/jinsaito/blob/main/the--pic--4--1.png?raw=true);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -96,18 +96,18 @@ a:hover{
 .top--the--list--item{
   width:350px;
   height:233px;
-  background-image: url(../img/the--pic1--1.png);
+  background-image: url(https://github.com/murata12/jinsaito/blob/main/the--pic1--1.png?raw=true);
   background-size: cover;
   background-position: center;
   border-radius: 10px;
 }
 
 .top--the--list--item:nth-of-type(2){
-  background-image: url(../img/the--pic2--1.png);
+  background-image: url(https://github.com/murata12/jinsaito/blob/main/the--pic2--1.png?raw=true);
 }
 
 .top--the--list--item:nth-of-type(3){
-  background-image: url(../img/the--pic3--1.png);
+  background-image: url(https://github.com/murata12/jinsaito/blob/main/the--pic3--1.png?raw=true);
 }
 
 .top--the--list--item a{
@@ -145,7 +145,7 @@ a:hover{
 }
 
 .top--rep--container--box{
-  background-image: url(../img/the--pic--4--1.png);
+  background-image: url(https://github.com/murata12/jinsaito/blob/main/the--pic--4--1.png?raw=true);
   background-size: cover;
   background-position: center;
   position: relative;
